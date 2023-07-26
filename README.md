@@ -40,8 +40,9 @@ Install Dependencies:
 Install the dependencies for both the frontend and backend:
 
 ```bash
+cd client/front
 npm install  (frontend)
-cd backend
+-----------------------------------------------------------------------------------------------------------------
 npm install (backend)
 Set Up Environment Variables:
 In the backend directory, create a .env file and add your Polygon API key to it:
