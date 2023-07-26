@@ -4,7 +4,7 @@
 
 ## Frontend (React):
 
-![App Screenshot](https://media.discordapp.net/attachments/1123554766530809909/1133725252858421248/fetch.PNG?width=717&height=336)
+![App Screenshot](https://media.discordapp.net/attachments/1123554766530809909/1133725252858421248/fetch.PNG?width=1440&height=674)
 
 Created a StockForm component that handles user input and makes API requests.
 The component has state variables to store the symbol, date, stock data, and error messages.
@@ -13,7 +13,7 @@ The backend response is used to display the stock details or error messages on t
 
 ## Backend (Express):
 
-![App Screenshot](https://media.discordapp.net/attachments/1123554766530809909/1133725253164597268/post.PNG?width=661&height=414)
+![App Screenshot](https://media.discordapp.net/attachments/1123554766530809909/1133725253164597268/post.PNG?width=1079&height=676)
 Set up an Express server to handle API requests.
 Used the cors middleware to allow cross-origin requests from the React frontend.
 Created an API endpoint /api/fetchStockData to handle POST requests from the frontend.
@@ -40,9 +40,10 @@ Install Dependencies:
 Install the dependencies for both the frontend and backend:
 
 ```bash
-cd client/front
+
+cd  client/front
 npm install  (frontend)
------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------
 npm install (backend)
 Set Up Environment Variables:
 In the backend directory, create a .env file and add your Polygon API key to it:
